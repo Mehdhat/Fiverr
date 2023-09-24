@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    margin-top: -30px;
+    background-color: #003c1b;
+}
+.header a{
+    color: white;
+}
+.hero{
+    background-image: url(./Find-the-Perfect-Freelancer-Fiverr.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-top: 0px;
+}
+
+.button:hover {
+    background-color:green;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    max-width: 20%; /* Adjust the width as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+.container .row .card p{
+    font-weight: bolder;
+}
+.container .row .card img{
+    width:20%;
+    height: 50%;
+}
+.container .row .card{
+  border: none;
+}
+.img-slider{
+    border: none;
+}
+.img-slider .cardbody{
+   margin-top: 25px;
+}
+.featured img{
+    border: none;
+    border-radius: 20px;
+}
+.img-slider img #resize{
+    height: 7vh;
+}
+.video-slider dl{
+    font-size: 20px;
+}
+.hero-video video{
+    margin-top: 200px;
+}
+.image-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.card {
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.picture1{
+    margin-top: -250px;
+}
+.container .hero {
+    background-color: #ae485d;
+}
+.businesssolution{
+    background-color: #0d084d;
+    color: white;
+    font-size: 14px;
+    height: max-content;
+}
+.logo span,.logomake span{
+    margin-left: -80px;
+    font-weight: bolder;
+}
+.businesssolution .business{
+    margin-top: -70px;
+}
+.businesssolution .sideimage{
+    position: relative;
+    left: 50vw;
+    bottom: 250px;
+}
+.businesssolution .business button{
+    width: 150px;
+    padding: 3px;
+}
+.logomake{
+    background-color:#446ee7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.stylelogoake{
+    position: relative;
+   right: 900px;
+   bottom: 100px;
+   font-size: 14px;
+   color: white;
+}
+.stylelogoake button{
+    color: #446ee7;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px;
+}
